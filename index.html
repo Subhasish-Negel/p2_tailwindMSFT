@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <title>Microsoft - Cloud, Computers, Apps & Gaming</title>
+  </head>
+  <body>
+    <div class="navbar flex justify-between item-center p-3">
+      <div class="flex justify-center items-center md:order-2">
+        <div class="hambueg er inline-block cursor-pointer md:hidden">
+          <div class="h-0.5 w-5 my-1 bg-black"></div>
+          <div class="h-0.5 w-3 my-1 bg-black"></div>
+          <div class="h-0.5 w-5 my-1 bg-black"></div>
+        </div>
+        <div class="search pl-3 md:hidden">Search</div>
+      </div>
+
+      <div class="logo text-center md:order-1 flex">
+        <div>Microsoft</div>
+        <div class="bg-gray-200 md:bg-white features absolute md:static w-fit md:w-auto inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
+          <div class="fitem">Microsoft 365</div>
+          <div class="fitem">Teams</div>
+          <div class="fitem">Windows</div>
+          <div class="fitem">Surface</div>
+          <div class="fitem">Xbox</div>
+          <div class="fitem">Support</div>
+        </div>
+      </div>
+      <div class="cart text-center md:order-3 flex space-x-2">
+        <div class="search hidden md:block">All Microsoft Search</div>
+        <div>Cart Account</div>
+      </div>
+    </div>
+
+    <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2]">
+      <div class="left flex flex-col justify-center">
+        <h1 class="text-4xl mx-5">Surface Pro 9</h1>
+        <p class="w-3/4">Tablet versatility and laptop power — all in one ultra-portable device</p>
+      </div>
+      <div class="right">
+        <img src="media/surface.webp" alt="">
+      </div>
+    </div>
+  </body>
 </html>
