@@ -9,6 +9,8 @@
     <title>Microsoft - Cloud, Computers, Apps & Gaming</title>
   </head>
   <body>
+
+
     <div class="navbar flex justify-between item-center p-3">
       <div class="flex justify-center items-center md:order-2">
         <div class="hambueg er inline-block cursor-pointer md:hidden">
@@ -20,30 +22,64 @@
       </div>
 
       <div class="logo text-center md:order-1 flex">
-        <div>Microsoft</div>
-        <div class="bg-gray-200 md:bg-white features absolute md:static w-fit md:w-auto inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
-          <div class="fitem">Microsoft 365</div>
-          <div class="fitem">Teams</div>
-          <div class="fitem">Windows</div>
-          <div class="fitem">Surface</div>
-          <div class="fitem">Xbox</div>
-          <div class="fitem">Support</div>
+        <div><img class="px-4 w-[9rem]" src="media/logo.png" alt=""></div>
+        <div
+          class="bg-gray-200 md:bg-white features absolute md:static w-fit md:text-sm lg:text-base md:w-auto inset-0 md:flex md:mx-4 md:space-x-3 -translate-x-96 md:translate-x-0 my-auto cursor-pointer"
+        >
+          <div class="fitem hover:underline">Microsoft 365</div>
+          <div class="fitem hover:underline">Teams</div>
+          <div class="fitem hover:underline">Windows</div>
+          <div class="fitem hover:underline">Surface</div>
+          <div class="fitem hover:underline">Xbox</div>
+          <div class="fitem hover:underline">Support</div>
         </div>
       </div>
-      <div class="cart text-center md:order-3 flex space-x-2">
-        <div class="search hidden md:block">All Microsoft Search</div>
-        <div>Cart Account</div>
+      <div class="cart text-center md:order-3 flex space-x-1">
+        <div class="search hidden md:block text-sm lg:text-base">All Microsoft Search</div>
+        <div class="text-sm lg:text-base">Cart Account</div>
+      </div>
+    </div>
+    
+
+    <div class="slider flex flex-col lg:flex-row bg-[#f2f2f2] mx-1">
+      <div class="right">
+        <img class="py-4 w-full md:w-[64rem]" src="media/surface_M.webp" alt="" />
+      </div>
+
+      <div
+        class="left flex flex-col justify-center items-center lg:items-baseline py-12 lg:mx-auto"
+      >
+        <h1 class="text-3xl lg:text-4xl mx-5 font-medium">Surface Pro 9</h1>
+        <p class="w-3/4 mx-5 text-center lg:text-left">
+          Tablet versatility and laptop power — all in one ultra-portable device
+        </p>
+        <button class="bg-[#0067b8] hover:bg-[#005ca5] text-white px-3 py-2 font-bold rounded-xl my-6">Learn more</button>
       </div>
     </div>
 
-    <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2]">
-      <div class="left flex flex-col justify-center">
-        <h1 class="text-4xl mx-5">Surface Pro 9</h1>
-        <p class="w-3/4">Tablet versatility and laptop power — all in one ultra-portable device</p>
+
+    <div class="promo space-y-5 md:space-y-[0.4rem] lg:space-y-0 my-5 flex flex-col md:flex-row justify-center">
+      <div class="left space-y-0 flex flex-col lg:flex-row lg:space-y-0">
+      <div class="my-4 item flex items-center mx-4 space-y-3 justify-center flex-col ">
+        <img class="w-8" src="media/winLogo.png" alt="">
+        <span class="font-medium ">Choose your Microsoft 365</span>
       </div>
-      <div class="right">
-        <img src="media/surface.webp" alt="">
+      <div class="item flex items-center mx-4 space-y-1 lg:space-y-0  justify-center flex-col">
+        <img class="w-11" src="media/surfaceDevices.png" alt="">
+        <span class="font-medium">Explore Surface devices</span>
       </div>
+    </div>
+
+    <div class="right space-y-7 flex flex-col lg:flex-row md:space-y-[1.35rem] lg:space-y-1">
+      <div class="item flex items-center mx-4 space-y-2 lg:space-y-0  justify-center flex-col">
+        <img class="w-11" src="media/xbox.png" alt="">
+        <span class="font-medium">Buy Xbox games and consoles</span>
+      </div>
+      <div class="item flex items-center mx-4 space-y-3 lg:space-y-2  justify-center flex-col">
+        <img class="w-8" src="media/winLogo.png" alt="">
+        <span class="font-medium">Get Windows 11</span>
+      </div>
+    </div>
     </div>
   </body>
 </html>
